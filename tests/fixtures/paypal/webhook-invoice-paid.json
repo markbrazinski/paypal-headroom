@@ -1,0 +1,155 @@
+{
+ "status": 200,
+ "body": {
+  "id": "WH-3E83E54BC6F4E7240-B0D92791B60668616",
+  "create_time": "2026-10-30T20:10:48.390Z",
+  "resource_type": "invoices",
+  "event_type": "INVOICING.INVOICE.PAID",
+  "summary": "An invoice is paid, partially paid, or payment is made and is pending.",
+  "resource": {
+   "invoice": {
+    "id": "INV2-0928-499A-1F97-042A",
+    "status": "PARTIALLY_PAID",
+    "detail": {
+     "currency_code": "USD",
+     "note": "SYNTHETIC Headroom capability probe. Sandbox only.",
+     "category_code": "SHIPPABLE",
+     "invoice_number": "HR-8DA50C080B-D",
+     "invoice_date": "2026-10-30",
+     "payment_term": {
+      "term_type": "DUE_ON_DATE_SPECIFIED",
+      "due_date": "2026-11-13"
+     },
+     "viewed_by_recipient": false,
+     "group_draft": false,
+     "metadata": {
+      "create_time": "2026-10-30T20:02:59Z",
+      "last_update_time": "2026-10-30T20:10:39Z",
+      "created_by_flow": "REGULAR_SINGLE",
+      "recipient_view_url": "https://www.sandbox.paypal.com/invoice/p/#REDACTED",
+      "invoicer_view_url": "https://www.sandbox.paypal.com/invoice/details/INV2-B94B-F29D-AAC0-CCF7",
+      "caller_type": "API_V2_INVOICE",
+      "spam_info": {}
+     },
+     "archived": false
+    },
+    "invoicer": {
+     "email_address": "redacted"
+    },
+    "primary_recipients": [
+     {
+      "billing_info": {
+       "business_name": "Synthetic Customer A",
+       "email_address": "customer@example.com"
+      }
+     }
+    ],
+    "items": [
+     {
+      "id": "ITEM-22886B021106EEFEE",
+      "name": "Probe service",
+      "quantity": "1",
+      "unit_amount": {
+       "currency_code": "USD",
+       "value": "500.00"
+      }
+     }
+    ],
+    "configuration": {
+     "tax_calculated_after_discount": false,
+     "tax_inclusive": false,
+     "allow_tip": false,
+     "partial_payment": {
+      "allow_partial_payment": true,
+      "minimum_amount_due": {
+       "currency_code": "USD",
+       "value": "100.00"
+      }
+     },
+     "allow_only_pay_by_bank": false,
+     "allow_vba_payments": false,
+     "save_item_for_future": true,
+     "template_id": "TEMP-729A52688753F4B32"
+    },
+    "amount": {
+     "breakdown": {
+      "item_total": {
+       "currency_code": "USD",
+       "value": "500.00"
+      },
+      "discount": {
+       "invoice_discount": {
+        "amount": {
+         "currency_code": "USD",
+         "value": "0.00"
+        }
+       },
+       "item_discount": {
+        "currency_code": "USD",
+        "value": "0.00"
+       }
+      },
+      "tax_total": {
+       "currency_code": "USD",
+       "value": "0.00"
+      }
+     },
+     "currency_code": "USD",
+     "value": "500.00"
+    },
+    "due_amount": {
+     "currency_code": "USD",
+     "value": "100.00"
+    },
+    "payments": {
+     "paid_amount": {
+      "currency_code": "USD",
+      "value": "400.00"
+     },
+     "transactions": [
+      {
+       "type": "EXTERNAL",
+       "payment_id": "EXTR-5E259697E130219FD",
+       "payment_date": "2026-10-30",
+       "payment_date_time": "2026-10-30T00:00:00Z",
+       "method": "BANK_TRANSFER",
+       "note": "SYNTHETIC manual record - NOT a PayPal checkout",
+       "amount": {
+        "currency_code": "USD",
+        "value": "150.00"
+       }
+      },
+      {
+       "type": "EXTERNAL",
+       "payment_id": "EXTR-A1BD362D5C7C3E425",
+       "payment_date": "2026-10-30",
+       "payment_date_time": "2026-10-30T00:00:00Z",
+       "method": "BANK_TRANSFER",
+       "note": "SYNTHETIC manual record - NOT a PayPal checkout",
+       "amount": {
+        "currency_code": "USD",
+        "value": "150.00"
+       }
+      },
+      {
+       "type": "PAYPAL",
+       "payment_id": "F405C61006AA535D3",
+       "transaction_type": "SALE",
+       "payment_date": "2026-10-30",
+       "payment_date_time": "2026-10-30T13:10:39Z",
+       "method": "PAYPAL",
+       "amount": {
+        "currency_code": "USD",
+        "value": "100.00"
+       },
+       "transaction_status": "SUCCESS"
+      }
+     ]
+    },
+    "unilateral": false,
+    "settings": {}
+   }
+  },
+  "event_version": "1.0"
+ }
+}

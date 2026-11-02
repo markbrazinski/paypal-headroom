@@ -1,0 +1,42 @@
+{
+ "status": 200,
+ "_source": "probe evidence 6-demo/032 (Plaid sandbox); ids pseudonymised",
+ "body": {
+  "item": {
+   "available_products": [
+    "assets",
+    "auth",
+    "balance",
+    "identity",
+    "identity_match",
+    "income",
+    "income_verification",
+    "investments",
+    "liabilities",
+    "signal",
+    "transactions_refresh"
+   ],
+   "billed_products": [
+    "transactions"
+   ],
+   "consent_expiration_time": null,
+   "created_at": "2026-11-01T01:01:45Z",
+   "error": null,
+   "institution_id": "ins_109508",
+   "institution_name": "First Platypus Bank",
+   "item_id": "item_demo_fixture",
+   "products": [
+    "transactions"
+   ],
+   "update_type": "background",
+   "webhook": ""
+  },
+  "status": {
+   "last_webhook": null,
+   "transactions": {
+    "last_failed_update": null,
+    "last_successful_update": "2026-11-01T01:01:49.818Z"
+   }
+  }
+ }
+}

@@ -1,0 +1,42 @@
+{
+  "name": "headroom",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "22.x"
+  },
+  "workspaces": [
+    "contracts",
+    "backend",
+    "web",
+    "infra"
+  ],
+  "scripts": {
+    "typecheck": "tsc -b",
+    "test": "node --test --test-reporter=spec \"contracts/**/*.test.ts\" \"backend/**/*.test.ts\" \"infra/**/*.test.ts\"",
+    "test:acceptance": "node --test --test-reporter=spec \"tests/acceptance/*.test.ts\"",
+    "test:live": "node scripts/live/s1.ts",
+    "test:live:s2": "node scripts/live/s2.ts",
+    "openapi": "node contracts/scripts/openapi.ts",
+    "dev": "node scripts/dev.ts",
+    "dev:api": "STAGE=local node backend/src/handlers/local-server.ts",
+    "build": "npm run build -w web",
+    "demo:reset": "node scripts/demo/reset.ts",
+    "reset": "node scripts/demo/reset.ts",
+    "demo:checkout": "node scripts/demo/checkout.ts",
+    "demo:pay": "node scripts/demo/pay-sandbox.mjs",
+    "manifest": "find contracts backend web/src web/index.html web/vite.config.ts web/package.json web/tsconfig.json infra/bin infra/lib infra/cdk.json infra/package.json infra/tsconfig.json tests scripts package.json package-lock.json tsconfig.json tsconfig.base.json .nvmrc .env.example .gitignore -type f -not -path '*/node_modules/*' -print0 | sort -z | xargs -0 shasum -a 256",
+    "demo:get-run": "node scripts/demo/get-run.ts",
+    "demo:inject-bill": "node scripts/demo/inject-bill.ts",
+    "mail:connect": "node scripts/demo/mail-connect.ts",
+    "demo:bill": "node scripts/demo/inject-bill.ts --variant hero --then-say",
+    "demo:collect": "node scripts/demo/collect.ts",
+    "demo:status": "node scripts/demo/status.ts",
+    "demo:golden": "npm run build -w web && node scripts/demo/golden-record.ts && npm run build -w web"
+  },
+  "devDependencies": {
+    "@types/node": "22.20.5",
+    "playwright-core": "1.48.2",
+    "typescript": "5.9.3"
+  }
+}

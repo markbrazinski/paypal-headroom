@@ -1,0 +1,1 @@
+{ "extends": "../tsconfig.base.json", "compilerOptions": { "outDir": "../.tsbuild/contracts" }, "include": ["src", "scripts"] }

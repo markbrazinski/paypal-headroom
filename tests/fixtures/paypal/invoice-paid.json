@@ -1,0 +1,121 @@
+{
+ "status": 200,
+ "body": {
+  "id": "INV2-EAD3-05DE-04CF-3640",
+  "status": "PAID",
+  "detail": {
+   "currency_code": "USD",
+   "note": "SYNTHETIC Headroom capability probe. Sandbox only.",
+   "category_code": "SHIPPABLE",
+   "invoice_number": "HR-49AA279405-D",
+   "invoice_date": "2026-10-30",
+   "payment_term": {
+    "term_type": "DUE_ON_DATE_SPECIFIED",
+    "due_date": "2026-11-13"
+   },
+   "viewed_by_recipient": false,
+   "group_draft": false,
+   "metadata": {
+    "create_time": "2026-10-30T20:03:03Z",
+    "last_update_time": "2026-10-30T20:08:44Z",
+    "created_by_flow": "REGULAR_SINGLE",
+    "recipient_view_url": "https://www.sandbox.paypal.com/invoice/p/#REDACTED",
+    "invoicer_view_url": "https://www.sandbox.paypal.com/invoice/details/INV2-6EF7-83CD-3514-91A7",
+    "caller_type": "API_V2_INVOICE",
+    "spam_info": {}
+   },
+   "archived": false
+  },
+  "invoicer": {
+   "email_address": "redacted"
+  },
+  "primary_recipients": [
+   {
+    "billing_info": {
+     "business_name": "Synthetic Customer B",
+     "email_address": "customer@example.com"
+    }
+   }
+  ],
+  "items": [
+   {
+    "id": "ITEM-A967EDEEFC52C8C60",
+    "name": "Probe service",
+    "quantity": "1",
+    "unit_amount": {
+     "currency_code": "USD",
+     "value": "120.00"
+    }
+   }
+  ],
+  "configuration": {
+   "tax_calculated_after_discount": false,
+   "tax_inclusive": false,
+   "allow_tip": false,
+   "partial_payment": {
+    "allow_partial_payment": true,
+    "minimum_amount_due": {
+     "currency_code": "USD",
+     "value": "100.00"
+    }
+   },
+   "allow_only_pay_by_bank": false,
+   "allow_vba_payments": false,
+   "save_item_for_future": true,
+   "template_id": "TEMP-729A52688753F4B32"
+  },
+  "amount": {
+   "breakdown": {
+    "item_total": {
+     "currency_code": "USD",
+     "value": "120.00"
+    },
+    "discount": {
+     "invoice_discount": {
+      "amount": {
+       "currency_code": "USD",
+       "value": "0.00"
+      }
+     },
+     "item_discount": {
+      "currency_code": "USD",
+      "value": "0.00"
+     }
+    },
+    "tax_total": {
+     "currency_code": "USD",
+     "value": "0.00"
+    }
+   },
+   "currency_code": "USD",
+   "value": "120.00"
+  },
+  "due_amount": {
+   "currency_code": "USD",
+   "value": "0.00"
+  },
+  "payments": {
+   "paid_amount": {
+    "currency_code": "USD",
+    "value": "120.00"
+   },
+   "transactions": [
+    {
+     "type": "PAYPAL",
+     "payment_id": "27E65775F6C7AEC1D",
+     "transaction_type": "SALE",
+     "payment_date": "2026-10-30",
+     "payment_date_time": "2026-10-30T13:08:44Z",
+     "method": "PAYPAL",
+     "amount": {
+      "currency_code": "USD",
+      "value": "120.00"
+     },
+     "transaction_status": "SUCCESS"
+    }
+   ]
+  },
+  "unilateral": false,
+  "settings": {}
+ }
+}

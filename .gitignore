@@ -1,0 +1,46 @@
+# Allowlist: ignore everything at the root, then re-include only what the app
+# needs to build, test and run. Anything new at the root (planning, probes,
+# notes, agent files, tool output) stays local until it is added here.
+/*
+!/.gitignore
+!/.nvmrc
+!/.env.example
+!/package.json
+!/package-lock.json
+!/tsconfig.json
+!/tsconfig.base.json
+!/README.md
+!/LICENSE
+!/backend/
+!/contracts/
+!/web/
+!/infra/
+!/scripts/
+!/tests/
+!/docs/
+/docs/*
+!/docs/images/
+!/docs/SETUP.md
+
+# Credentials, anywhere
+.env
+.env.*
+*.env
+!.env.example
+*.pem
+*.key
+
+# Build output and local state, anywhere
+node_modules/
+dist/
+cdk.out/
+.tsbuild/
+*.tsbuildinfo
+coverage/
+test-results/
+playwright-report/
+*.log
+.DS_Store
+.vscode/
+.idea/
+.claude/

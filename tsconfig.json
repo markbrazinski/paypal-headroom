@@ -1,0 +1,4 @@
+{
+  "files": [],
+  "references": [{ "path": "contracts" }, { "path": "backend" }, { "path": "tests" }, { "path": "scripts" }, { "path": "web" }, { "path": "infra" }]
+}

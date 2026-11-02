@@ -1,0 +1,16 @@
+{
+ "status": 422,
+ "body": {
+  "name": "UNPROCESSABLE_ENTITY",
+  "message": "The requested action could not be performed, semantically incorrect, or failed business validation.",
+  "details": [
+   {
+    "field": "/detail/invoice_number",
+    "value": "HR-8DA50C080B-D",
+    "location": "body",
+    "issue": "DUPLICATE_INVOICE_NUMBER",
+    "description": "Invoice number is duplicate."
+   }
+  ]
+ }
+}

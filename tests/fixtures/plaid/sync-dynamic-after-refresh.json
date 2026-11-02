@@ -1,0 +1,623 @@
+{
+ "status": 200,
+ "_source": "probe evidence 4-sync/021-sync-sync-p1.json (Plaid sandbox, observed 2026-11-01T00:56:09Z); ids pseudonymised, fields slimmed",
+ "body": {
+  "added": [
+   {
+    "transaction_id": "txn_bcfd981743aee81bc2ac",
+    "account_id": "acct_66e7436d39",
+    "amount": -1200,
+    "iso_currency_code": "USD",
+    "unofficial_currency_code": null,
+    "date": "2026-10-28",
+    "authorized_date": "2026-10-27",
+    "name": "PROBE FIXTURE CUSTOMER RECEIPT ACME INV-1001",
+    "pending": false,
+    "pending_transaction_id": null,
+    "counterparties": [
+     {
+      "name": "Acme Markets"
+     }
+    ]
+   },
+   {
+    "transaction_id": "txn_958d6baf39946625ca1a",
+    "account_id": "acct_66e7436d39",
+    "amount": -400,
+    "iso_currency_code": "USD",
+    "unofficial_currency_code": null,
+    "date": "2026-10-29",
+    "authorized_date": "2026-10-28",
+    "name": "PROBE FIXTURE PAYPAL TRANSFER WITHDRAWAL",
+    "pending": false,
+    "pending_transaction_id": null,
+    "counterparties": [
+     {
+      "name": "PayPal"
+     }
+    ]
+   },
+   {
+    "transaction_id": "txn_957bddf221df1ed0af87",
+    "account_id": "acct_66e7436d39",
+    "amount": 250,
+    "iso_currency_code": "USD",
+    "unofficial_currency_code": null,
+    "date": "2026-10-30",
+    "authorized_date": "2026-10-29",
+    "name": "PROBE FIXTURE PAYPAL INST XFER ADD FUNDS",
+    "pending": false,
+    "pending_transaction_id": null,
+    "counterparties": [
+     {
+      "name": "PayPal"
+     }
+    ]
+   },
+   {
+    "transaction_id": "txn_8458d2f2c1f6228f322e",
+    "account_id": "acct_66e7436d39",
+    "amount": 58,
+    "iso_currency_code": "USD",
+    "unofficial_currency_code": null,
+    "date": "2026-11-01",
+    "authorized_date": "2026-11-01",
+    "name": "72116609 POS PURCHASE EARNIN RE SC 6 721582259",
+    "pending": false,
+    "pending_transaction_id": "txn_a606587bb053294af947",
+    "counterparties": [
+     {
+      "name": "Earnin"
+     }
+    ]
+   },
+   {
+    "transaction_id": "txn_033c233034638620e8a0",
+    "account_id": "acct_66e7436d39",
+    "amount": 128.11888,
+    "iso_currency_code": "USD",
+    "unofficial_currency_code": null,
+    "date": "2026-11-01",
+    "authorized_date": "2026-11-01",
+    "name": "McDonald's",
+    "pending": false,
+    "pending_transaction_id": "txn_eece0b6d11378a44995b",
+    "counterparties": [
+     {
+      "name": "McDonald's"
+     }
+    ]
+   },
+   {
+    "transaction_id": "txn_e179ac92a928e48c0c6a",
+    "account_id": "acct_66e7436d39",
+    "amount": 143.92996,
+    "iso_currency_code": "USD",
+    "unofficial_currency_code": null,
+    "date": "2026-11-01",
+    "authorized_date": "2026-11-01",
+    "name": "Food Lion",
+    "pending": false,
+    "pending_transaction_id": "txn_8bbb4b45b5de1808acfd",
+    "counterparties": [
+     {
+      "name": "Food Lion"
+     }
+    ]
+   },
+   {
+    "transaction_id": "txn_20bcfb4ff8de9106d012",
+    "account_id": "acct_66e7436d39",
+    "amount": 72,
+    "iso_currency_code": "USD",
+    "unofficial_currency_code": null,
+    "date": "2026-11-01",
+    "authorized_date": "2026-11-01",
+    "name": "Uber Eats",
+    "pending": false,
+    "pending_transaction_id": "txn_39c47f81955028bbf8fc",
+    "counterparties": [
+     {
+      "name": "Uber Eats"
+     }
+    ]
+   },
+   {
+    "transaction_id": "txn_a60409ce83dff4774d4a",
+    "account_id": "acct_66e7436d39",
+    "amount": 103.44398,
+    "iso_currency_code": "USD",
+    "unofficial_currency_code": null,
+    "date": "2026-11-01",
+    "authorized_date": "2026-11-01",
+    "name": "Dunkin' Donuts",
+    "pending": false,
+    "pending_transaction_id": "txn_008194012eb47435c1f3",
+    "counterparties": [
+     {
+      "name": "Dunkin'"
+     },
+     {
+      "name": "PayPal"
+     }
+    ]
+   },
+   {
+    "transaction_id": "txn_5e04771104317ff1ee3e",
+    "account_id": "acct_66e7436d39",
+    "amount": 11.42619,
+    "iso_currency_code": "USD",
+    "unofficial_currency_code": null,
+    "date": "2026-11-01",
+    "authorized_date": "2026-11-01",
+    "name": "Spotify",
+    "pending": true,
+    "pending_transaction_id": null,
+    "counterparties": [
+     {
+      "name": "Spotify"
+     },
+     {
+      "name": "PayPal"
+     }
+    ]
+   },
+   {
+    "transaction_id": "txn_ae7de021d589fba7ccf2",
+    "account_id": "acct_66e7436d39",
+    "amount": 114.57021,
+    "iso_currency_code": "USD",
+    "unofficial_currency_code": null,
+    "date": "2026-11-01",
+    "authorized_date": "2026-11-01",
+    "name": "EFT DEBIT  MICROSOFT XBOX CA 9673 05/16 TIMESTAMP",
+    "pending": true,
+    "pending_transaction_id": null,
+    "counterparties": [
+     {
+      "name": "Microsoft Xbox"
+     },
+     {
+      "name": "Google Play Store"
+     }
+    ]
+   },
+   {
+    "transaction_id": "txn_af63551f05666052b5fa",
+    "account_id": "acct_66e7436d39",
+    "amount": -363,
+    "iso_currency_code": "USD",
+    "unofficial_currency_code": null,
+    "date": "2026-11-01",
+    "authorized_date": "2026-11-01",
+    "name": "Transfer From Checking -1980",
+    "pending": true,
+    "pending_transaction_id": null,
+    "counterparties": []
+   },
+   {
+    "transaction_id": "txn_40b1f9f3a2a536a4f675",
+    "account_id": "acct_b0838af25e",
+    "amount": 16.99,
+    "iso_currency_code": "USD",
+    "unofficial_currency_code": null,
+    "date": "2026-11-01",
+    "authorized_date": "2026-11-01",
+    "name": "APPLE.COM/BILL",
+    "pending": false,
+    "pending_transaction_id": "txn_46f7bce510f4f6f2a901",
+    "counterparties": [
+     {
+      "name": "Apple"
+     }
+    ]
+   },
+   {
+    "transaction_id": "txn_3b8bdb8269e891ca4f7a",
+    "account_id": "acct_b0838af25e",
+    "amount": 166.5,
+    "iso_currency_code": "USD",
+    "unofficial_currency_code": null,
+    "date": "2026-11-01",
+    "authorized_date": "2026-11-01",
+    "name": "PERFECT POINTE DANCE STUD",
+    "pending": false,
+    "pending_transaction_id": "txn_ded43baf6fb9ae0a0687",
+    "counterparties": [
+     {
+      "name": "Perfect Pointe Dance Studio"
+     }
+    ]
+   },
+   {
+    "transaction_id": "txn_2b4921ba6bb7f37041ef",
+    "account_id": "acct_b0838af25e",
+    "amount": 70.56,
+    "iso_currency_code": "USD",
+    "unofficial_currency_code": null,
+    "date": "2026-11-01",
+    "authorized_date": "2026-11-01",
+    "name": "TST*AMBAR - CLARENDON",
+    "pending": false,
+    "pending_transaction_id": "txn_156f494177186a4a1b7e",
+    "counterparties": [
+     {
+      "name": "Ambar"
+     },
+     {
+      "name": "Toast"
+     }
+    ]
+   },
+   {
+    "transaction_id": "txn_03f5151de27ade694543",
+    "account_id": "acct_b0838af25e",
+    "amount": 658,
+    "iso_currency_code": "USD",
+    "unofficial_currency_code": null,
+    "date": "2026-11-01",
+    "authorized_date": "2026-11-01",
+    "name": "Mathnasium",
+    "pending": false,
+    "pending_transaction_id": "txn_d6fc7a98be96c67a998f",
+    "counterparties": [
+     {
+      "name": "Mathnasium"
+     }
+    ]
+   },
+   {
+    "transaction_id": "txn_9be05736005540a42934",
+    "account_id": "acct_b0838af25e",
+    "amount": 23.47,
+    "iso_currency_code": "USD",
+    "unofficial_currency_code": null,
+    "date": "2026-11-01",
+    "authorized_date": "2026-11-01",
+    "name": "Sephora",
+    "pending": true,
+    "pending_transaction_id": null,
+    "counterparties": [
+     {
+      "name": "Sephora"
+     }
+    ]
+   },
+   {
+    "transaction_id": "txn_b7923042e647e67ed818",
+    "account_id": "acct_b0838af25e",
+    "amount": 7.71,
+    "iso_currency_code": "USD",
+    "unofficial_currency_code": null,
+    "date": "2026-11-01",
+    "authorized_date": "2026-11-01",
+    "name": "CVS",
+    "pending": true,
+    "pending_transaction_id": null,
+    "counterparties": [
+     {
+      "name": "CVS"
+     }
+    ]
+   },
+   {
+    "transaction_id": "txn_a658b4fc241de6649201",
+    "account_id": "acct_b0838af25e",
+    "amount": 45,
+    "iso_currency_code": "USD",
+    "unofficial_currency_code": null,
+    "date": "2026-11-01",
+    "authorized_date": "2026-11-01",
+    "name": "CHUY'S XXX",
+    "pending": true,
+    "pending_transaction_id": null,
+    "counterparties": [
+     {
+      "name": "Chuy's"
+     }
+    ]
+   },
+   {
+    "transaction_id": "txn_ae892fcda17b4f4f503d",
+    "account_id": "acct_101d36eaab",
+    "amount": 20,
+    "iso_currency_code": "USD",
+    "unofficial_currency_code": null,
+    "date": "2026-11-01",
+    "authorized_date": "2026-11-01",
+    "name": "Interest charged",
+    "pending": false,
+    "pending_transaction_id": "txn_37a9aec70c7cf6439e74",
+    "counterparties": []
+   },
+   {
+    "transaction_id": "txn_668e2a53194d7b65e801",
+    "account_id": "acct_101d36eaab",
+    "amount": -528,
+    "iso_currency_code": "USD",
+    "unofficial_currency_code": null,
+    "date": "2026-11-01",
+    "authorized_date": "2026-11-01",
+    "name": "Monthly payment",
+    "pending": false,
+    "pending_transaction_id": "txn_2e853e7ed5819c91ce15",
+    "counterparties": []
+   },
+   {
+    "transaction_id": "txn_6a3759deb7cbb27baf59",
+    "account_id": "acct_101d36eaab",
+    "amount": -544,
+    "iso_currency_code": "USD",
+    "unofficial_currency_code": null,
+    "date": "2026-11-01",
+    "authorized_date": "2026-11-01",
+    "name": "Monthly payment",
+    "pending": true,
+    "pending_transaction_id": null,
+    "counterparties": []
+   },
+   {
+    "transaction_id": "txn_140321274f0f9d54dd34",
+    "account_id": "acct_101d36eaab",
+    "amount": 65,
+    "iso_currency_code": "USD",
+    "unofficial_currency_code": null,
+    "date": "2026-11-01",
+    "authorized_date": "2026-11-01",
+    "name": "Interest charged",
+    "pending": true,
+    "pending_transaction_id": null,
+    "counterparties": []
+   },
+   {
+    "transaction_id": "txn_56229237d0a56cf0bc03",
+    "account_id": "acct_101d36eaab",
+    "amount": -546,
+    "iso_currency_code": "USD",
+    "unofficial_currency_code": null,
+    "date": "2026-11-01",
+    "authorized_date": "2026-11-01",
+    "name": "Monthly payment",
+    "pending": true,
+    "pending_transaction_id": null,
+    "counterparties": []
+   },
+   {
+    "transaction_id": "txn_fe54a0b646c881df49eb",
+    "account_id": "acct_62cad44ad0",
+    "amount": 20,
+    "iso_currency_code": "USD",
+    "unofficial_currency_code": null,
+    "date": "2026-11-01",
+    "authorized_date": "2026-11-01",
+    "name": "Interest charged",
+    "pending": false,
+    "pending_transaction_id": null,
+    "counterparties": []
+   },
+   {
+    "transaction_id": "txn_f484d47d86efbf669a11",
+    "account_id": "acct_62cad44ad0",
+    "amount": -528,
+    "iso_currency_code": "USD",
+    "unofficial_currency_code": null,
+    "date": "2026-11-01",
+    "authorized_date": "2026-11-01",
+    "name": "Monthly payment",
+    "pending": false,
+    "pending_transaction_id": "txn_f327ad8596ef126b667b",
+    "counterparties": []
+   },
+   {
+    "transaction_id": "txn_a1e8f7d932b4d033eee8",
+    "account_id": "acct_62cad44ad0",
+    "amount": -501,
+    "iso_currency_code": "USD",
+    "unofficial_currency_code": null,
+    "date": "2026-11-01",
+    "authorized_date": "2026-11-01",
+    "name": "Monthly payment",
+    "pending": true,
+    "pending_transaction_id": null,
+    "counterparties": []
+   },
+   {
+    "transaction_id": "txn_7aba25b7e6a63e231b1e",
+    "account_id": "acct_62cad44ad0",
+    "amount": -502,
+    "iso_currency_code": "USD",
+    "unofficial_currency_code": null,
+    "date": "2026-11-01",
+    "authorized_date": "2026-11-01",
+    "name": "Monthly payment",
+    "pending": true,
+    "pending_transaction_id": null,
+    "counterparties": []
+   },
+   {
+    "transaction_id": "txn_1b33b5ffcd4a4a85a45b",
+    "account_id": "acct_9571b99cd0",
+    "amount": 20,
+    "iso_currency_code": "USD",
+    "unofficial_currency_code": null,
+    "date": "2026-11-01",
+    "authorized_date": "2026-11-01",
+    "name": "Interest charged",
+    "pending": false,
+    "pending_transaction_id": "txn_60eabe2050f812f0c949",
+    "counterparties": []
+   },
+   {
+    "transaction_id": "txn_7a74c4f3416bebca6318",
+    "account_id": "acct_9571b99cd0",
+    "amount": -528,
+    "iso_currency_code": "USD",
+    "unofficial_currency_code": null,
+    "date": "2026-11-01",
+    "authorized_date": "2026-11-01",
+    "name": "Monthly payment",
+    "pending": false,
+    "pending_transaction_id": "txn_bf1692c21f7d03f2b819",
+    "counterparties": []
+   },
+   {
+    "transaction_id": "txn_5a93c90c9763144e1c16",
+    "account_id": "acct_9571b99cd0",
+    "amount": -534,
+    "iso_currency_code": "USD",
+    "unofficial_currency_code": null,
+    "date": "2026-11-01",
+    "authorized_date": "2026-11-01",
+    "name": "Monthly payment",
+    "pending": true,
+    "pending_transaction_id": null,
+    "counterparties": []
+   },
+   {
+    "transaction_id": "txn_1d0dbbd78f88ee1528de",
+    "account_id": "acct_9571b99cd0",
+    "amount": -535,
+    "iso_currency_code": "USD",
+    "unofficial_currency_code": null,
+    "date": "2026-11-01",
+    "authorized_date": "2026-11-01",
+    "name": "Monthly payment",
+    "pending": true,
+    "pending_transaction_id": null,
+    "counterparties": []
+   },
+   {
+    "transaction_id": "txn_6c9578d8d1e5f37f17b5",
+    "account_id": "acct_9571b99cd0",
+    "amount": 56,
+    "iso_currency_code": "USD",
+    "unofficial_currency_code": null,
+    "date": "2026-11-01",
+    "authorized_date": "2026-11-01",
+    "name": "Interest charged",
+    "pending": true,
+    "pending_transaction_id": null,
+    "counterparties": []
+   },
+   {
+    "transaction_id": "txn_944f6bef5bfabf3643e9",
+    "account_id": "acct_cbe92af9a8",
+    "amount": 20,
+    "iso_currency_code": "USD",
+    "unofficial_currency_code": null,
+    "date": "2026-11-01",
+    "authorized_date": "2026-11-01",
+    "name": "Interest charged",
+    "pending": false,
+    "pending_transaction_id": "txn_58872452af523c004373",
+    "counterparties": []
+   },
+   {
+    "transaction_id": "txn_94004f6fadd016fcf5d6",
+    "account_id": "acct_cbe92af9a8",
+    "amount": -528,
+    "iso_currency_code": "USD",
+    "unofficial_currency_code": null,
+    "date": "2026-11-01",
+    "authorized_date": "2026-11-01",
+    "name": "Monthly payment",
+    "pending": false,
+    "pending_transaction_id": "txn_297b60592d34d2151e2a",
+    "counterparties": []
+   },
+   {
+    "transaction_id": "txn_7903cd48f3f728062a53",
+    "account_id": "acct_cbe92af9a8",
+    "amount": -541,
+    "iso_currency_code": "USD",
+    "unofficial_currency_code": null,
+    "date": "2026-11-01",
+    "authorized_date": "2026-11-01",
+    "name": "Monthly payment",
+    "pending": true,
+    "pending_transaction_id": null,
+    "counterparties": []
+   },
+   {
+    "transaction_id": "txn_b5851724fe13f2ad9d30",
+    "account_id": "acct_cbe92af9a8",
+    "amount": 62,
+    "iso_currency_code": "USD",
+    "unofficial_currency_code": null,
+    "date": "2026-11-01",
+    "authorized_date": "2026-11-01",
+    "name": "Interest charged",
+    "pending": true,
+    "pending_transaction_id": null,
+    "counterparties": []
+   },
+   {
+    "transaction_id": "txn_7f51aa89f848f1f648d9",
+    "account_id": "acct_cbe92af9a8",
+    "amount": -543,
+    "iso_currency_code": "USD",
+    "unofficial_currency_code": null,
+    "date": "2026-11-01",
+    "authorized_date": "2026-11-01",
+    "name": "Monthly payment",
+    "pending": true,
+    "pending_transaction_id": null,
+    "counterparties": []
+   }
+  ],
+  "modified": [],
+  "removed": [
+   {
+    "transaction_id": "txn_a606587bb053294af947"
+   },
+   {
+    "transaction_id": "txn_eece0b6d11378a44995b"
+   },
+   {
+    "transaction_id": "txn_8bbb4b45b5de1808acfd"
+   },
+   {
+    "transaction_id": "txn_39c47f81955028bbf8fc"
+   },
+   {
+    "transaction_id": "txn_008194012eb47435c1f3"
+   },
+   {
+    "transaction_id": "txn_46f7bce510f4f6f2a901"
+   },
+   {
+    "transaction_id": "txn_ded43baf6fb9ae0a0687"
+   },
+   {
+    "transaction_id": "txn_156f494177186a4a1b7e"
+   },
+   {
+    "transaction_id": "txn_d6fc7a98be96c67a998f"
+   },
+   {
+    "transaction_id": "txn_37a9aec70c7cf6439e74"
+   },
+   {
+    "transaction_id": "txn_2e853e7ed5819c91ce15"
+   },
+   {
+    "transaction_id": "txn_f327ad8596ef126b667b"
+   },
+   {
+    "transaction_id": "txn_60eabe2050f812f0c949"
+   },
+   {
+    "transaction_id": "txn_bf1692c21f7d03f2b819"
+   },
+   {
+    "transaction_id": "txn_58872452af523c004373"
+   },
+   {
+    "transaction_id": "txn_297b60592d34d2151e2a"
+   }
+  ],
+  "next_cursor": "cursor_73c7adf4bf92ab305ada",
+  "has_more": false,
+  "transactions_update_status": "HISTORICAL_UPDATE_COMPLETE"
+ }
+}

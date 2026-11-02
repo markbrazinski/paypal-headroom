@@ -1,0 +1,113 @@
+{
+ "status": 200,
+ "_source": "probe evidence 5-cash/004-sync-balance-realtime.json (Plaid sandbox, observed 2026-11-01T00:59:50Z); ids pseudonymised",
+ "body": {
+  "accounts": [
+   {
+    "account_id": "acct_66e7436d39",
+    "name": "Checking",
+    "mask": "1000",
+    "type": "depository",
+    "subtype": "checking",
+    "holder_category": "personal",
+    "balances": {
+     "available": 446.8112897,
+     "current": 500,
+     "iso_currency_code": "USD",
+     "limit": null,
+     "unofficial_currency_code": null
+    }
+   },
+   {
+    "account_id": "acct_b0838af25e",
+    "name": "Credit card",
+    "mask": "2000",
+    "type": "credit",
+    "subtype": "credit card",
+    "holder_category": "personal",
+    "balances": {
+     "available": 9710.07,
+     "current": 500,
+     "iso_currency_code": "USD",
+     "limit": 10300,
+     "unofficial_currency_code": null
+    }
+   },
+   {
+    "account_id": "acct_101d36eaab",
+    "name": "Mortgage loan",
+    "mask": "3000",
+    "type": "loan",
+    "subtype": "mortgage",
+    "holder_category": "personal",
+    "balances": {
+     "available": null,
+     "current": 500,
+     "iso_currency_code": "USD",
+     "limit": null,
+     "unofficial_currency_code": null
+    }
+   },
+   {
+    "account_id": "acct_1a3d08db0b",
+    "name": "Student loan",
+    "mask": "4000",
+    "type": "loan",
+    "subtype": "student",
+    "holder_category": "personal",
+    "balances": {
+     "available": 25000,
+     "current": 25000,
+     "iso_currency_code": "USD",
+     "limit": null,
+     "unofficial_currency_code": null
+    }
+   },
+   {
+    "account_id": "acct_62cad44ad0",
+    "name": "Auto loan",
+    "mask": "5000",
+    "type": "loan",
+    "subtype": "auto",
+    "holder_category": "personal",
+    "balances": {
+     "available": null,
+     "current": 500,
+     "iso_currency_code": "USD",
+     "limit": null,
+     "unofficial_currency_code": null
+    }
+   },
+   {
+    "account_id": "acct_9571b99cd0",
+    "name": "Consumer loan",
+    "mask": "6000",
+    "type": "loan",
+    "subtype": "consumer",
+    "holder_category": "personal",
+    "balances": {
+     "available": null,
+     "current": 500,
+     "iso_currency_code": "USD",
+     "limit": null,
+     "unofficial_currency_code": null
+    }
+   },
+   {
+    "account_id": "acct_cbe92af9a8",
+    "name": "Line of credit loan",
+    "mask": "7000",
+    "type": "loan",
+    "subtype": "line of credit",
+    "holder_category": "personal",
+    "balances": {
+     "available": null,
+     "current": 500,
+     "iso_currency_code": "USD",
+     "limit": null,
+     "unofficial_currency_code": null
+    }
+   }
+  ]
+ }
+}

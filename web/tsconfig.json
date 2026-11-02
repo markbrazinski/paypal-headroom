@@ -1,0 +1,6 @@
+{
+  "extends": "../tsconfig.base.json",
+  "compilerOptions": { "outDir": "../.tsbuild/web", "rootDir": "..", "lib": ["ES2023", "DOM", "DOM.Iterable"], "jsx": "react-jsx", "types": [], "module": "ESNext", "moduleResolution": "Bundler" },
+  "include": ["src", "vite.config.ts"],
+  "references": [{ "path": "../contracts" }]
+}

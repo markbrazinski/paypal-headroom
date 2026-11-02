@@ -1,0 +1,53 @@
+{
+ "status": 200,
+ "_source": "probe evidence 6-demo/033-demo-balance-realtime.json (Plaid sandbox, observed 2026-11-01T01:01:56Z); ids pseudonymised",
+ "body": {
+  "accounts": [
+   {
+    "account_id": "acct_2661d8e9e3",
+    "name": "Headroom Operating",
+    "mask": "0101",
+    "type": "depository",
+    "subtype": "checking",
+    "holder_category": "personal",
+    "balances": {
+     "available": 8130,
+     "current": 8450,
+     "iso_currency_code": "USD",
+     "limit": null,
+     "unofficial_currency_code": null
+    }
+   },
+   {
+    "account_id": "acct_c877d5c05b",
+    "name": "Headroom Reserve",
+    "mask": "0202",
+    "type": "depository",
+    "subtype": "savings",
+    "holder_category": "personal",
+    "balances": {
+     "available": null,
+     "current": 15000,
+     "iso_currency_code": "USD",
+     "limit": null,
+     "unofficial_currency_code": null
+    }
+   },
+   {
+    "account_id": "acct_863c9fda29",
+    "name": "Business Card",
+    "mask": "0303",
+    "type": "credit",
+    "subtype": "credit card",
+    "holder_category": "personal",
+    "balances": {
+     "available": 4240,
+     "current": 640,
+     "iso_currency_code": "USD",
+     "limit": 5000,
+     "unofficial_currency_code": null
+    }
+   }
+  ]
+ }
+}

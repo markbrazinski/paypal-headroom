@@ -1,0 +1,29 @@
+{
+ "status": 200,
+ "body": {
+  "id": "27E65775F6C7AEC1D",
+  "amount": {
+   "currency_code": "USD",
+   "value": "120.00"
+  },
+  "final_capture": true,
+  "seller_receivable_breakdown": {
+   "gross_amount": {
+    "currency_code": "USD",
+    "value": "120.00"
+   },
+   "paypal_fee": {
+    "currency_code": "USD",
+    "value": "4.68"
+   },
+   "net_amount": {
+    "currency_code": "USD",
+    "value": "115.32"
+   }
+  },
+  "invoice_id": "INV2-EAD3-05DE-04CF-3640",
+  "status": "COMPLETED",
+  "create_time": "2026-10-30T20:08:43Z",
+  "update_time": "2026-10-30T20:08:43Z"
+ }
+}

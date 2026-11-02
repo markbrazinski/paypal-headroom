@@ -1,0 +1,25 @@
+{
+ "status": 200,
+ "body": {
+  "balances": [
+   {
+    "currency": "USD",
+    "total_balance": {
+     "currency_code": "USD",
+     "value": "5328.36"
+    },
+    "available_balance": {
+     "currency_code": "USD",
+     "value": "5328.36"
+    },
+    "withheld_balance": {
+     "currency_code": "USD",
+     "value": "0.00"
+    }
+   }
+  ],
+  "account_id": "redacted",
+  "as_of_time": "2026-10-31T10:59:59Z",
+  "last_refresh_time": "2026-10-31T10:59:59Z"
+ }
+}

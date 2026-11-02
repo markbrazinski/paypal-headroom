@@ -1,0 +1,1 @@
+{ "extends": "../tsconfig.base.json", "compilerOptions": { "outDir": "../.tsbuild/tests", "rootDir": ".." }, "include": ["acceptance", "fixtures", "../scripts/demo/bill-pdf.ts"], "references": [{ "path": "../contracts" }, { "path": "../backend" }, { "path": "../infra" }] }

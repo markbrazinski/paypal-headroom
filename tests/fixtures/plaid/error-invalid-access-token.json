@@ -1,0 +1,12 @@
+{
+ "status": 400,
+ "_source": "probe evidence 4-sync/032-invalid-token.json (Plaid sandbox)",
+ "body": {
+  "display_message": null,
+  "documentation_url": "https://plaid.com/docs/errors/invalid-input/#invalid_access_token",
+  "error_code": "INVALID_ACCESS_TOKEN",
+  "error_message": "provided access token is in an invalid format. expected format: access-<environment>-<identifier>",
+  "error_type": "INVALID_INPUT",
+  "suggested_action": null
+ }
+}

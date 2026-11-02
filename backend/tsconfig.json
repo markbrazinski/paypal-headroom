@@ -1,0 +1,1 @@
+{ "extends": "../tsconfig.base.json", "compilerOptions": { "outDir": "../.tsbuild/backend", "rootDir": ".." }, "include": ["src", "../tests/fixtures"], "references": [{ "path": "../contracts" }] }

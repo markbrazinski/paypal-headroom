@@ -1,0 +1,146 @@
+{
+ "status": 200,
+ "_source": "probe evidence 6-demo/031-demo-sync-p1.json (Plaid sandbox, observed 2026-11-01T01:01:54Z); ids pseudonymised, fields slimmed",
+ "body": {
+  "added": [
+   {
+    "transaction_id": "txn_0d4b7c8600427bab94a8",
+    "account_id": "acct_2661d8e9e3",
+    "amount": 2100,
+    "iso_currency_code": "USD",
+    "unofficial_currency_code": null,
+    "date": "2026-10-22",
+    "authorized_date": "2026-10-21",
+    "name": "OFFICE RENT OCT",
+    "pending": false,
+    "pending_transaction_id": null,
+    "counterparties": []
+   },
+   {
+    "transaction_id": "txn_1d6eba032dbefa7ff148",
+    "account_id": "acct_2661d8e9e3",
+    "amount": 89.99,
+    "iso_currency_code": "USD",
+    "unofficial_currency_code": null,
+    "date": "2026-10-26",
+    "authorized_date": "2026-10-25",
+    "name": "SOFTWARE SUBSCRIPTION",
+    "pending": false,
+    "pending_transaction_id": null,
+    "counterparties": []
+   },
+   {
+    "transaction_id": "txn_c47eb7d824a570e9a5b3",
+    "account_id": "acct_2661d8e9e3",
+    "amount": -1200,
+    "iso_currency_code": "USD",
+    "unofficial_currency_code": null,
+    "date": "2026-10-28",
+    "authorized_date": "2026-10-27",
+    "name": "CUSTOMER RECEIPT ACH INV-1001",
+    "pending": false,
+    "pending_transaction_id": null,
+    "counterparties": []
+   },
+   {
+    "transaction_id": "txn_9757ddc444d379a15a45",
+    "account_id": "acct_2661d8e9e3",
+    "amount": -400,
+    "iso_currency_code": "USD",
+    "unofficial_currency_code": null,
+    "date": "2026-10-29",
+    "authorized_date": "2026-10-28",
+    "name": "PAYPAL TRANSFER WITHDRAWAL",
+    "pending": false,
+    "pending_transaction_id": null,
+    "counterparties": [
+     {
+      "name": "PayPal"
+     }
+    ]
+   },
+   {
+    "transaction_id": "txn_75db697bf0bc61f99f93",
+    "account_id": "acct_2661d8e9e3",
+    "amount": 250,
+    "iso_currency_code": "USD",
+    "unofficial_currency_code": null,
+    "date": "2026-10-30",
+    "authorized_date": "2026-10-29",
+    "name": "PAYPAL INST XFER ADD FUNDS",
+    "pending": false,
+    "pending_transaction_id": null,
+    "counterparties": [
+     {
+      "name": "PayPal"
+     }
+    ]
+   },
+   {
+    "transaction_id": "txn_49b532edcb3475a8449a",
+    "account_id": "acct_2661d8e9e3",
+    "amount": 320,
+    "iso_currency_code": "USD",
+    "unofficial_currency_code": null,
+    "date": "2026-10-30",
+    "authorized_date": "2026-10-30",
+    "name": "SUPPLIER ACME PARTS",
+    "pending": true,
+    "pending_transaction_id": null,
+    "counterparties": [
+     {
+      "name": "Acme Markets"
+     }
+    ]
+   },
+   {
+    "transaction_id": "txn_c132660250d28b3f2fc6",
+    "account_id": "acct_c877d5c05b",
+    "amount": -3.12,
+    "iso_currency_code": "USD",
+    "unofficial_currency_code": null,
+    "date": "2026-10-26",
+    "authorized_date": "2026-10-26",
+    "name": "INTEREST PAYMENT",
+    "pending": false,
+    "pending_transaction_id": null,
+    "counterparties": []
+   },
+   {
+    "transaction_id": "txn_ec62da4a2827fa40edfb",
+    "account_id": "acct_863c9fda29",
+    "amount": 45.2,
+    "iso_currency_code": "USD",
+    "unofficial_currency_code": null,
+    "date": "2026-10-25",
+    "authorized_date": "2026-10-24",
+    "name": "OFFICE SUPPLIES",
+    "pending": false,
+    "pending_transaction_id": null,
+    "counterparties": [
+     {
+      "name": "Office Supplies"
+     }
+    ]
+   },
+   {
+    "transaction_id": "txn_28179300d6a9df0ed459",
+    "account_id": "acct_863c9fda29",
+    "amount": 120,
+    "iso_currency_code": "USD",
+    "unofficial_currency_code": null,
+    "date": "2026-10-30",
+    "authorized_date": "2026-10-30",
+    "name": "TRAVEL BOOKING",
+    "pending": true,
+    "pending_transaction_id": null,
+    "counterparties": []
+   }
+  ],
+  "modified": [],
+  "removed": [],
+  "next_cursor": "cursor_ded758f8c8c45f788b7c",
+  "has_more": false,
+  "transactions_update_status": "HISTORICAL_UPDATE_COMPLETE"
+ }
+}

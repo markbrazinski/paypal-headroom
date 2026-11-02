@@ -1,0 +1,539 @@
+{
+ "status": 200,
+ "body": {
+  "transaction_details": [
+   {
+    "transaction_info": {
+     "transaction_id": "802AC24E657E96C46",
+     "paypal_reference_id": "B166AC80D06809815",
+     "paypal_reference_id_type": "TXN",
+     "transaction_event_code": "T0005",
+     "transaction_initiation_date": "2026-10-30T20:03:50Z",
+     "transaction_updated_date": "2026-10-30T20:03:50Z",
+     "transaction_amount": {
+      "currency_code": "USD",
+      "value": "100.00"
+     },
+     "fee_amount": {
+      "currency_code": "USD",
+      "value": "-3.08"
+     },
+     "transaction_status": "S",
+     "ending_balance": {
+      "currency_code": "USD",
+      "value": "5096.92"
+     },
+     "available_balance": {
+      "currency_code": "USD",
+      "value": "5096.92"
+     },
+     "invoice_id": "HR-1611F1B89A-44",
+     "custom_field": "headroom-probe",
+     "protection_eligibility": "02",
+     "instrument_type": "Debit Card",
+     "instrument_sub_type": "Visa"
+    },
+    "store_info": {},
+    "auction_info": {},
+    "incentive_info": {}
+   },
+   {
+    "transaction_info": {
+     "transaction_id": "2E1627DBC10FE2370",
+     "paypal_reference_id": "802AC24E657E96C46",
+     "paypal_reference_id_type": "TXN",
+     "transaction_event_code": "T1107",
+     "transaction_initiation_date": "2026-10-30T20:03:57Z",
+     "transaction_updated_date": "2026-10-30T20:03:57Z",
+     "transaction_amount": {
+      "currency_code": "USD",
+      "value": "-30.00"
+     },
+     "transaction_status": "S",
+     "transaction_subject": "Synthetic partial refund",
+     "transaction_note": "Synthetic partial refund",
+     "ending_balance": {
+      "currency_code": "USD",
+      "value": "5066.92"
+     },
+     "available_balance": {
+      "currency_code": "USD",
+      "value": "5066.92"
+     },
+     "invoice_id": "HR-1611F1B89A-44",
+     "custom_field": "headroom-probe",
+     "protection_eligibility": "02",
+     "instrument_type": "PayPal",
+     "instrument_sub_type": "PayPal Wallet"
+    },
+    "store_info": {},
+    "auction_info": {},
+    "incentive_info": {}
+   },
+   {
+    "transaction_info": {
+     "transaction_id": "914693898D70DD7B8",
+     "paypal_reference_id": "D7687747E5693A006",
+     "paypal_reference_id_type": "TXN",
+     "transaction_event_code": "T0005",
+     "transaction_initiation_date": "2026-10-30T20:04:00Z",
+     "transaction_updated_date": "2026-10-30T20:04:00Z",
+     "transaction_amount": {
+      "currency_code": "EUR",
+      "value": "50.00"
+     },
+     "fee_amount": {
+      "currency_code": "EUR",
+      "value": "-1.69"
+     },
+     "transaction_status": "S",
+     "ending_balance": {
+      "currency_code": "EUR",
+      "value": "48.31"
+     },
+     "available_balance": {
+      "currency_code": "EUR",
+      "value": "48.31"
+     },
+     "invoice_id": "HR-7AF8B2C37D-03",
+     "custom_field": "headroom-probe",
+     "protection_eligibility": "02",
+     "instrument_type": "Debit Card",
+     "instrument_sub_type": "Visa"
+    },
+    "store_info": {},
+    "auction_info": {},
+    "incentive_info": {}
+   },
+   {
+    "transaction_info": {
+     "transaction_id": "5D7D251E8B17F2B46",
+     "paypal_reference_id": "914693898D70DD7B8",
+     "paypal_reference_id_type": "TXN",
+     "transaction_event_code": "T0200",
+     "transaction_initiation_date": "2026-10-30T20:04:00Z",
+     "transaction_updated_date": "2026-10-30T20:04:00Z",
+     "transaction_amount": {
+      "currency_code": "EUR",
+      "value": "-48.31"
+     },
+     "transaction_status": "S",
+     "ending_balance": {
+      "currency_code": "EUR",
+      "value": "0.00"
+     },
+     "available_balance": {
+      "currency_code": "EUR",
+      "value": "0.00"
+     },
+     "invoice_id": "HR-7AF8B2C37D-03",
+     "custom_field": "headroom-probe",
+     "protection_eligibility": "02",
+     "instrument_type": "PayPal",
+     "instrument_sub_type": "PayPal Wallet"
+    },
+    "store_info": {},
+    "auction_info": {},
+    "incentive_info": {}
+   },
+   {
+    "transaction_info": {
+     "transaction_id": "4CED3601B51AD783F",
+     "paypal_reference_id": "914693898D70DD7B8",
+     "paypal_reference_id_type": "TXN",
+     "transaction_event_code": "T0200",
+     "transaction_initiation_date": "2026-10-30T20:04:00Z",
+     "transaction_updated_date": "2026-10-30T20:04:00Z",
+     "transaction_amount": {
+      "currency_code": "USD",
+      "value": "52.70"
+     },
+     "transaction_status": "S",
+     "ending_balance": {
+      "currency_code": "USD",
+      "value": "5119.62"
+     },
+     "available_balance": {
+      "currency_code": "USD",
+      "value": "5119.62"
+     },
+     "invoice_id": "HR-7AF8B2C37D-03",
+     "custom_field": "headroom-probe",
+     "protection_eligibility": "02",
+     "instrument_type": "PayPal",
+     "instrument_sub_type": "PayPal Wallet"
+    },
+    "store_info": {},
+    "auction_info": {},
+    "incentive_info": {}
+   },
+   {
+    "transaction_info": {
+     "transaction_id": "27E65775F6C7AEC1D",
+     "paypal_reference_id": "6E3BCC7FD56CEE6B0",
+     "paypal_reference_id_type": "TXN",
+     "transaction_event_code": "T0006",
+     "transaction_initiation_date": "2026-10-30T20:08:43Z",
+     "transaction_updated_date": "2026-10-30T20:08:43Z",
+     "transaction_amount": {
+      "currency_code": "USD",
+      "value": "120.00"
+     },
+     "fee_amount": {
+      "currency_code": "USD",
+      "value": "-4.68"
+     },
+     "transaction_status": "S",
+     "ending_balance": {
+      "currency_code": "USD",
+      "value": "5234.94"
+     },
+     "available_balance": {
+      "currency_code": "USD",
+      "value": "5234.94"
+     },
+     "invoice_id": "HR-49AA279405-D",
+     "protection_eligibility": "01",
+     "instrument_type": "Debit Card",
+     "instrument_sub_type": "Visa"
+    },
+    "store_info": {},
+    "auction_info": {},
+    "incentive_info": {}
+   },
+   {
+    "transaction_info": {
+     "transaction_id": "F405C61006AA535D3",
+     "paypal_reference_id": "66E685A89224EA69D",
+     "paypal_reference_id_type": "TXN",
+     "transaction_event_code": "T0006",
+     "transaction_initiation_date": "2026-10-30T20:10:39Z",
+     "transaction_updated_date": "2026-10-30T20:10:39Z",
+     "transaction_amount": {
+      "currency_code": "USD",
+      "value": "100.00"
+     },
+     "fee_amount": {
+      "currency_code": "USD",
+      "value": "-3.98"
+     },
+     "transaction_status": "S",
+     "ending_balance": {
+      "currency_code": "USD",
+      "value": "5330.96"
+     },
+     "available_balance": {
+      "currency_code": "USD",
+      "value": "5330.96"
+     },
+     "invoice_id": "HR-8DA50C080B-D",
+     "protection_eligibility": "01",
+     "instrument_type": "Debit Card",
+     "instrument_sub_type": "Visa"
+    },
+    "store_info": {},
+    "auction_info": {},
+    "incentive_info": {}
+   },
+   {
+    "transaction_info": {
+     "transaction_id": "EF84AB3B9BFE7AADA",
+     "transaction_event_code": "T1503",
+     "transaction_initiation_date": "2026-10-30T20:12:24Z",
+     "transaction_updated_date": "2026-10-30T20:12:24Z",
+     "transaction_amount": {
+      "currency_code": "USD",
+      "value": "-25.25"
+     },
+     "transaction_status": "S",
+     "ending_balance": {
+      "currency_code": "USD",
+      "value": "5305.71"
+     },
+     "available_balance": {
+      "currency_code": "USD",
+      "value": "5305.71"
+     },
+     "protection_eligibility": "02",
+     "instrument_type": "PayPal",
+     "instrument_sub_type": "PayPal Wallet"
+    },
+    "store_info": {},
+    "auction_info": {},
+    "incentive_info": {}
+   },
+   {
+    "transaction_info": {
+     "transaction_id": "16B4B31C3B9E87DD8",
+     "paypal_reference_id": "EF84AB3B9BFE7AADA",
+     "paypal_reference_id_type": "TXN",
+     "transaction_event_code": "T0001",
+     "transaction_initiation_date": "2026-10-30T20:12:34Z",
+     "transaction_updated_date": "2026-10-30T20:12:34Z",
+     "transaction_amount": {
+      "currency_code": "USD",
+      "value": "-25.00"
+     },
+     "fee_amount": {
+      "currency_code": "USD",
+      "value": "-0.25"
+     },
+     "transaction_status": "P",
+     "transaction_subject": "SYNTHETIC Headroom probe payout",
+     "transaction_note": "SYNTHETIC supplier bill payment probe. Sandbox only.",
+     "ending_balance": {
+      "currency_code": "USD",
+      "value": "5280.46"
+     },
+     "available_balance": {
+      "currency_code": "USD",
+      "value": "5280.46"
+     },
+     "custom_field": "BILL-1001",
+     "protection_eligibility": "02",
+     "instrument_type": "PayPal",
+     "instrument_sub_type": "PayPal Wallet"
+    },
+    "store_info": {},
+    "auction_info": {},
+    "incentive_info": {}
+   },
+   {
+    "transaction_info": {
+     "transaction_id": "D1DF42FDE37B703F6",
+     "paypal_reference_id": "EF84AB3B9BFE7AADA",
+     "paypal_reference_id_type": "TXN",
+     "transaction_event_code": "T1105",
+     "transaction_initiation_date": "2026-10-30T20:12:34Z",
+     "transaction_updated_date": "2026-10-30T20:12:34Z",
+     "transaction_amount": {
+      "currency_code": "USD",
+      "value": "25.25"
+     },
+     "transaction_status": "S",
+     "transaction_subject": "SYNTHETIC Headroom probe payout",
+     "transaction_note": "SYNTHETIC supplier bill payment probe. Sandbox only.",
+     "ending_balance": {
+      "currency_code": "USD",
+      "value": "5305.71"
+     },
+     "available_balance": {
+      "currency_code": "USD",
+      "value": "5305.71"
+     },
+     "custom_field": "BILL-1001",
+     "protection_eligibility": "02",
+     "instrument_type": "PayPal",
+     "instrument_sub_type": "PayPal Wallet"
+    },
+    "store_info": {},
+    "auction_info": {},
+    "incentive_info": {}
+   },
+   {
+    "transaction_info": {
+     "transaction_id": "132C95F233214B7BA",
+     "paypal_reference_id": "F0317061700BFB2F8",
+     "paypal_reference_id_type": "TXN",
+     "transaction_event_code": "T0005",
+     "transaction_initiation_date": "2026-10-30T20:36:06Z",
+     "transaction_updated_date": "2026-10-30T20:36:06Z",
+     "transaction_amount": {
+      "currency_code": "USD",
+      "value": "10.00"
+     },
+     "fee_amount": {
+      "currency_code": "USD",
+      "value": "-0.75"
+     },
+     "transaction_status": "S",
+     "ending_balance": {
+      "currency_code": "USD",
+      "value": "5314.96"
+     },
+     "available_balance": {
+      "currency_code": "USD",
+      "value": "5314.96"
+     },
+     "custom_field": "headroom-runtime-probe",
+     "protection_eligibility": "02",
+     "instrument_type": "Debit Card",
+     "instrument_sub_type": "Visa"
+    },
+    "store_info": {},
+    "auction_info": {},
+    "incentive_info": {}
+   },
+   {
+    "transaction_info": {
+     "transaction_id": "C87CEC3A3707879B1",
+     "paypal_reference_id": "E97EDCC2C1A9FA177",
+     "paypal_reference_id_type": "TXN",
+     "transaction_event_code": "T0005",
+     "transaction_initiation_date": "2026-10-30T21:22:45Z",
+     "transaction_updated_date": "2026-10-30T21:22:45Z",
+     "transaction_amount": {
+      "currency_code": "USD",
+      "value": "10.00"
+     },
+     "fee_amount": {
+      "currency_code": "USD",
+      "value": "-0.75"
+     },
+     "transaction_status": "S",
+     "ending_balance": {
+      "currency_code": "USD",
+      "value": "5324.21"
+     },
+     "available_balance": {
+      "currency_code": "USD",
+      "value": "5324.21"
+     },
+     "custom_field": "headroom-sdk-probe",
+     "protection_eligibility": "02",
+     "instrument_type": "Debit Card",
+     "instrument_sub_type": "Visa"
+    },
+    "store_info": {},
+    "auction_info": {},
+    "incentive_info": {}
+   },
+   {
+    "transaction_info": {
+     "transaction_id": "F01B8DEBB07AB76C8",
+     "paypal_reference_id": "11E4867AEBB89BA41",
+     "paypal_reference_id_type": "TXN",
+     "transaction_event_code": "T0005",
+     "transaction_initiation_date": "2026-10-30T21:22:53Z",
+     "transaction_updated_date": "2026-10-30T21:22:53Z",
+     "transaction_amount": {
+      "currency_code": "USD",
+      "value": "10.00"
+     },
+     "fee_amount": {
+      "currency_code": "USD",
+      "value": "-0.75"
+     },
+     "transaction_status": "S",
+     "ending_balance": {
+      "currency_code": "USD",
+      "value": "5333.46"
+     },
+     "available_balance": {
+      "currency_code": "USD",
+      "value": "5333.46"
+     },
+     "custom_field": "headroom-sdk-probe",
+     "protection_eligibility": "02",
+     "instrument_type": "Debit Card",
+     "instrument_sub_type": "Visa"
+    },
+    "store_info": {},
+    "auction_info": {},
+    "incentive_info": {}
+   },
+   {
+    "transaction_info": {
+     "transaction_id": "56A50316508046A33",
+     "transaction_event_code": "T1503",
+     "transaction_initiation_date": "2026-10-30T21:23:26Z",
+     "transaction_updated_date": "2026-10-30T21:23:26Z",
+     "transaction_amount": {
+      "currency_code": "USD",
+      "value": "-5.10"
+     },
+     "transaction_status": "S",
+     "ending_balance": {
+      "currency_code": "USD",
+      "value": "5328.36"
+     },
+     "available_balance": {
+      "currency_code": "USD",
+      "value": "5328.36"
+     },
+     "protection_eligibility": "02",
+     "instrument_type": "PayPal",
+     "instrument_sub_type": "PayPal Wallet"
+    },
+    "store_info": {},
+    "auction_info": {},
+    "incentive_info": {}
+   },
+   {
+    "transaction_info": {
+     "transaction_id": "83482377D14FD07A7",
+     "paypal_reference_id": "56A50316508046A33",
+     "paypal_reference_id_type": "TXN",
+     "transaction_event_code": "T0001",
+     "transaction_initiation_date": "2026-10-30T21:23:35Z",
+     "transaction_updated_date": "2026-10-30T21:23:35Z",
+     "transaction_amount": {
+      "currency_code": "USD",
+      "value": "-5.00"
+     },
+     "fee_amount": {
+      "currency_code": "USD",
+      "value": "-0.10"
+     },
+     "transaction_status": "S",
+     "transaction_subject": "SYNTHETIC Headroom probe payout",
+     "transaction_note": "SYNTHETIC supplier payment probe. Sandbox only.",
+     "ending_balance": {
+      "currency_code": "USD",
+      "value": "5323.26"
+     },
+     "available_balance": {
+      "currency_code": "USD",
+      "value": "5323.26"
+     },
+     "custom_field": "BILL-2001",
+     "protection_eligibility": "02",
+     "instrument_type": "PayPal",
+     "instrument_sub_type": "PayPal Wallet"
+    },
+    "store_info": {},
+    "auction_info": {},
+    "incentive_info": {}
+   },
+   {
+    "transaction_info": {
+     "transaction_id": "C14BBBA9CB7246507",
+     "paypal_reference_id": "56A50316508046A33",
+     "paypal_reference_id_type": "TXN",
+     "transaction_event_code": "T1105",
+     "transaction_initiation_date": "2026-10-30T21:23:35Z",
+     "transaction_updated_date": "2026-10-30T21:23:35Z",
+     "transaction_amount": {
+      "currency_code": "USD",
+      "value": "5.10"
+     },
+     "transaction_status": "S",
+     "transaction_subject": "SYNTHETIC Headroom probe payout",
+     "transaction_note": "SYNTHETIC supplier payment probe. Sandbox only.",
+     "ending_balance": {
+      "currency_code": "USD",
+      "value": "5328.36"
+     },
+     "available_balance": {
+      "currency_code": "USD",
+      "value": "5328.36"
+     },
+     "custom_field": "BILL-2001",
+     "protection_eligibility": "02",
+     "instrument_type": "PayPal",
+     "instrument_sub_type": "PayPal Wallet"
+    },
+    "store_info": {},
+    "auction_info": {},
+    "incentive_info": {}
+   }
+  ],
+  "account_number": "1FD566B5220B4",
+  "start_date": "2026-10-29T00:00:00Z",
+  "end_date": "2026-10-31T10:59:59Z",
+  "last_refreshed_datetime": "2026-10-31T10:59:59Z",
+  "page": 1,
+  "total_items": 16,
+  "total_pages": 1
+ }
+}
