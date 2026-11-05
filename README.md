@@ -1,4 +1,8 @@
-# Headroom — a cash-reserve guard for small service businesses on PayPal
+# Headroom — cash management for small businesses on PayPal
+
+**Meet your obligations. Protect your cash reserve.** Headroom brings collections,
+supplier payments and adaptive cash planning together, powered by PayPal and
+controlled by you.
 
 On a Monday morning Larkspur Home Services, a small services firm, has $9,930
 in cash, $21,100 owed by three customers, and a $4,000 reserve the owner never
@@ -160,7 +164,7 @@ npm run dev -w web
   ➜  Local:   http://localhost:5173/
 ```
 
-Open [http://localhost:5173/?demo=1](http://localhost:5173/?demo=1). The whole
+Open [http://localhost:5173/?replay=1](http://localhost:5173/?replay=1). The whole
 journey above was recorded from the real router and domain code, with Nova on
 Bedrock reading the bill and writing the plan. It replays in your browser from
 `web/public/golden/`, with no server and no PayPal call. A dock in the bottom
@@ -183,8 +187,8 @@ Suppliers, Delegation) shows that step's data.
 |---|---|
 | `]` / `[` | next / previous step |
 | `H` | hide or show the dock |
-| `?demo=1&step=N` | jump to step N (0–7) |
-| `?demo=0` | leave the recording |
+| `?replay=1&step=N` | jump to step N (0–7) |
+| `?replay=0` | leave the recording |
 
 ### Browser tests
 
@@ -295,9 +299,8 @@ payouts go to the sandbox receiver in `PAYPAL_BUYER_EMAIL`.
   `PAYPAL_CLIENT_ID` and `PAYPAL_CLIENT_SECRET`, and keep
   `PAYPAL_ENV=sandbox`.
 - The run comes up `BLOCKED` with "No PayPal grant configured
-  (HEADROOM_GRANT)": set `HEADROOM_GRANT=SANDBOX`. Budgets expire on
-  2026-12-31; to extend them, set `HEADROOM_GRANT_EXPIRES_AT` to an ISO UTC
-  instant.
+  (HEADROOM_GRANT)": set `HEADROOM_GRANT=SANDBOX`. Call budgets carry an
+  expiry (default 2026-12-31); `HEADROOM_GRANT_EXPIRES_AT` moves it.
 - `RUN_SEALED` / "No active run": run `npm run reset -- --stage local`.
 - `EADDRINUSE 127.0.0.1:8787` (or `8796` / `8797` for the replay servers):
   another process holds the port. Stop it (`lsof -nP -iTCP:8787
@@ -383,7 +386,7 @@ runs: `npm run reset -- --stage dev`.
 - **pdfjs-dist 6.4.299** extracts text from bill PDFs.
 - **playwright-core 1.48.2** and **@sparticuz/chromium 130.0.0** drive the
   browser tests and the sandbox payer Lambda.
-- **Gmail API** in test mode (optional). Every message goes to one test inbox.
+- **Gmail API** (optional), with every message routed to one configured inbox.
 
 ## Repository structure
 
@@ -396,7 +399,7 @@ backend/src/
   handlers/             API router, webhook, worker, sweep, operator and payer Lambdas, local server
   jobs/                 durable leased jobs and the sweep
 web/src/                React app: Overview, Inbox, Plan, Cash, Receivables, Payables, Delegation
-web/public/golden/      the recorded journey replayed at /?demo=1
+web/public/golden/      the recorded journey replayed at /?replay=1
 infra/                  CDK stacks (dev, review) and the API role's grants as data
 tests/acceptance/       end-to-end domain scenarios on recorded provider responses
 tests/fixtures/         sanitized recorded PayPal, Plaid and model responses, sample bills
@@ -412,13 +415,12 @@ Apache-2.0. See [`LICENSE`](LICENSE).
 
 ## Scope
 
-- **PayPal sandbox only.** The HTTP adapter refuses any URL that isn't
-  PayPal's sandbox, and every provider call draws on a named budget with an
-  expiry.
 - **The model proposes; code decides.** Nova reads documents and chooses and
   explains among candidates Headroom has already priced. Amounts, dates,
   recipients, permissions and provider state come from deterministic code, and
   output that fails a schema or citation check is refused.
+- **Runs on PayPal's sandbox.** The HTTP adapter is pinned to PayPal's sandbox
+  host, and every provider call draws on a named budget with an expiry.
 - **Money counts when PayPal says so.** A customer payment counts when its
   capture is `COMPLETED`, and a supplier is paid when its payout item is
   `SUCCESS`. Webhooks only prompt a GET.
@@ -430,7 +432,8 @@ Apache-2.0. See [`LICENSE`](LICENSE).
 - **Approval is a permission, not a flag.** It is scoped to one action, single
   use, re-checked at execution and revocable, with owner rules for what may
   run without asking.
-- **Email goes to a test inbox.** Messages go through Gmail to one test inbox,
-  or to a labelled in-app mailbox.
+- **Outreach stays contained.** Every message goes through Gmail to one
+  configured inbox, or to a labelled in-app mailbox, so a run can never email
+  the wrong person.
 - **One business per sign-in.** Each Cognito user is bound to one tenant, and
   every read and write is scoped to it.

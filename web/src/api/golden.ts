@@ -1,7 +1,7 @@
 // EXPERIMENTAL golden run (owner, 3 Nov 2026): `?demo=1` replays the hero journey recorded by scripts/demo/golden-record.ts
 // from /golden/*.json, in this browser only. No server, no PayPal. The presenter's off-camera keys fire the outside events:
 //   ]  next event (bill arrives, Headroom asks, Pellow pays, Harrow pays, Mercer check, Keller paid)    [  back one step
-//   ?demo=1 starts over · ?demo=1&step=N jumps · ?demo=0 leaves. The owner's own clicks (verify, accept, approve) move it too.
+//   ?replay=1 (or ?demo=1) starts over · &step=N jumps · ?replay=0 leaves. The owner's own clicks (verify, accept, approve) move it too.
 // Real email (owner, 3 Nov 2026): when the presenter is signed in as the operator in this tab, the step where Headroom asks sends those
 // asks as real Gmail messages to the test inbox (server route goldenMail, operator only). Only after Gmail confirms them does the
 // demo relabel them "Gmail · real email to your test inbox". Not signed in (judges): nothing is sent and the recording's labels stay.
@@ -15,8 +15,9 @@ type Mail = { state: 'SENDING' | 'SENT' | 'FAILED'; id?: string; n?: number; rea
 const mail = (): Mail | null => { try { return JSON.parse(sessionStorage.getItem(MAIL) ?? 'null'); } catch { return null; } };
 const setMail = (m: Mail) => { sessionStorage.setItem(MAIL, JSON.stringify(m)); document.dispatchEvent(new Event('visibilitychange')); };
 const q = new URLSearchParams(location.search);
-if (q.get('demo') === '0') sessionStorage.removeItem(K);
-if (q.get('demo') === '1') { sessionStorage.setItem(K, q.get('step') ?? '0'); sessionStorage.removeItem(MAIL); }
+const mode = q.get('replay') ?? q.get('demo'); // ?demo= kept so older links still work
+if (mode === '0') sessionStorage.removeItem(K);
+if (mode === '1') { sessionStorage.setItem(K, q.get('step') ?? '0'); sessionStorage.removeItem(MAIL); }
 export const goldenOn = () => sessionStorage.getItem(K) !== null;
 
 let index: Index | null = null;

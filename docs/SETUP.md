@@ -34,7 +34,7 @@ shell win over `.env`.
 | `HEADROOM_MODEL` | unset | local API | Bedrock model for bills, plan and drafts, e.g. `us.amazon.nova-2-lite-v1:0`; unset uses Headroom's template |
 | `AWS_PROFILE`, `AWS_REGION` | chain, `us-east-1` | Bedrock, operator scripts | Operator and setup scripts default `AWS_PROFILE` to `headroom-admin` |
 | `MAIL_CHANNEL` | unset | local API | `simulated` = labelled in-app mailbox; otherwise Gmail when the trio below is set, else no channel |
-| `GOOGLE_OAUTH_CLIENT_ID`, `GOOGLE_OAUTH_CLIENT_SECRET`, `GMAIL_TEST_INBOX`, `GMAIL_TEST_SENDER` | unset | local API, `mail:connect` | Gmail test mode; every message goes to `GMAIL_TEST_INBOX` (lowercase `google_oauth_client_id`, `google_oauth_client_secret`, `gmail_test_recipient`, `gmail_test_sender` also work) |
+| `GOOGLE_OAUTH_CLIENT_ID`, `GOOGLE_OAUTH_CLIENT_SECRET`, `GMAIL_TEST_INBOX`, `GMAIL_TEST_SENDER` | unset | local API, `mail:connect` | Gmail; every message is routed to `GMAIL_TEST_INBOX` (lowercase `google_oauth_client_id`, `google_oauth_client_secret`, `gmail_test_recipient`, `gmail_test_sender` also work) |
 | `PAYPAL_PAYER_EMAIL`, `PAYPAL_PAYER_PASSWORD` | unset | local API, setup | Sandbox personal account for the automated payer on PayPal's hosted page (local Google Chrome) |
 | `PAYPAL_BUYER_EMAIL` | unset | local API, setup | Registered sandbox receiver for supplier payouts |
 | `PAYPAL_REVIEW_CLIENT_ID`, `PAYPAL_REVIEW_CLIENT_SECRET`, `PAYPAL_REVIEW_MERCHANT_EMAIL` | unset | setup | Second sandbox merchant for the review stage |
@@ -68,7 +68,7 @@ Gmail and the payer (`HR_*_SECRET_ID`), the Plaid token KMS key (`HR_PLAID_KEY_I
 | `demo:status` | `-- --stage dev\|review [--watch]`: run, lease and reset progress of a deployed stage |
 | `demo:get-run` | Prints the current local run |
 | `demo:golden` | Rebuilds the web app and re-records the walkthrough in `web/public/golden/` (Nova on Bedrock) |
-| `mail:connect` | Connects Gmail test mode to a stage |
+| `mail:connect` | Connects Gmail to a stage |
 | `test:live`, `test:live:s2` | Sandbox journeys against a deployed dev stage |
 | `manifest` | SHA-256 of every tracked source file, for pinning a reviewed revision |
 
